@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background: url("http://mlr3rd.github.io/unit_3/images.CoffeeCup.jpg");
+  background: url(../images/CoffeeCup.jpg);
   background-size: cover;
   color: #000;
   font-family: Helvetica;
@@ -9,12 +9,12 @@ h1 {
 	color: rgb(0,255,0);
 }
 p.slogan {
-	font-style: italics;
+	font-style: italic;
 	font-family: "Times New Roman";
 }
 ul {
     text-align: center;
-    list-style-type: none;
+    list-style-type: circle;
 }
 
 
