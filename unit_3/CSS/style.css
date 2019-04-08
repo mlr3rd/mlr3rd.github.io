@@ -2,15 +2,16 @@ body {
   text-align: center;
   background: url(../images/Bluemtns.jpg);
   background-size: cover;
-  color: #000;
+  color: #FFF;
   font-family: Helvetica;
 }
 h1 {
-	color: rgb(0,255,0);
+	color: rgb(0,99,0);
 }
 p.slogan {
 	font-style: italic;
 	font-family: "Times New Roman";
+	font-size: 19px;
 }
 ul {
     text-align: center;
