@@ -22,6 +22,11 @@ p.Header {
 	font-weight: bold;
 	color: #80FF00;
 }
+p.sub-head {
+	font-weight: lighter;
+	font-size: 14px;
+	color: #80FF00;
+}
 ul {
     text-align: center;
     list-style-type: none;
@@ -30,7 +35,7 @@ ul {
 }
 li.paren {
 	font-weight: lighter;
-	font-size: 14px;
+	font-size: 12px;
 }
 
 
