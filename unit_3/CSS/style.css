@@ -7,9 +7,15 @@ body {
 }
 h1 {
 	color: rgb(0,99,0);
-	font-size: 3.65em;
+	font-size: 3.25em;
 }
 p.slogan {
+	font-style: italic;
+	font-family: Helvetica;
+	font-size: 30px;
+	color: #00CC00;
+}
+p.Header {
 	font-style: italic;
 	font-family: Helvetica;
 	font-size: 20px;
@@ -17,9 +23,13 @@ p.slogan {
 }
 ul {
     text-align: center;
-    list-style-type: circle;
+    list-style-type: none;
+    font-size: 2em;
+    font-weight: bold;
 }
-
+li.paren {
+	font-weight: normal;
+}
 
 
 
