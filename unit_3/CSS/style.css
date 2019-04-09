@@ -18,17 +18,18 @@ p.slogan {
 p.Header {
 	font-style: italic;
 	font-family: Helvetica;
-	font-size: 20px;
-	color: #00CC00;
+	font-size: 25px;
+	font-weight: bold;
+	color: #80FF00;
 }
 ul {
     text-align: center;
     list-style-type: none;
-    font-size: 2em;
+    font-size: 20px;
     font-weight: bold;
 }
 li.paren {
-	font-weight: normal;
+	font-weight: lighter;
 }
 
 
