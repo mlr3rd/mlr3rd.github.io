@@ -1,42 +1,72 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
 body {
   text-align: center;
   background: url(../images/Bluemtns.jpg);
   background-size: cover;
   color: #FFF;
-  font-family: Helvetica;
+  font-family: Helvetica, Arial, sans-serif;
 }
+
+header {
+  background-color: #FFF000;
+  padding: 20px;
+}
+
+a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+nav a {
+  color: #FFF;
+  font-style: italic;
+  margin-right: 10px;
+}
+
 h1 {
-	color: rgb(0,99,0);
-	font-size: 3.25em;
+  color: #FFF;
 }
-p.slogan {
-	font-style: italic;
-	font-family: Helvetica;
-	font-size: 30px;
-	color: #00CC00;
+
+main {
+  color: #FFF;
+  padding: 20px;
 }
-p.Header {
-	font-style: italic;
-	font-family: Helvetica;
-	font-size: 25px;
-	font-weight: bold;
-	color: #80FF00;
+
+section {
+
 }
-p.sub-head {
-	font-weight: bold;
-	font-size: 14px;
-	color: #80FF00;
+
+h2 {
+  color: #FFF;
 }
+
+img {
+	width: 100%;
+}
+
 ul {
-    text-align: center;
-    list-style-type: none;
-    font-size: 20px;
-    font-weight: bold;
+	padding-left: 20px;
 }
-li.paren {
-	font-weight: lighter;
-	font-size: 12px;
+
+article {
+  color: #FFF;
 }
+
+h3, h4 {
+  color: #FFF;
+  margin: 20px 0;
+}
+
+footer {
+	background-color: #FFF;
+	padding: 20px;
+	text-align: center;
+}
+
 
 
 
