@@ -47,14 +47,14 @@ section {
 
 h2 {
 	background-color: #BDD3DE;
-	margin: 10px;
+	padding: 10px;
 	font-family: serif;
 	font-style: italic;
 }
 
 h3, h4 {
 	background-color: #abaeba;
-	margin: 10px;
+	padding: 10px;
 	font-family: serif;
 }
 
@@ -63,7 +63,7 @@ img {
 }
 
 ul {
-	padding-left: 20px;
+	padding: 10px;
 }
 
 article {
