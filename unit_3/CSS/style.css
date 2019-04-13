@@ -22,11 +22,14 @@ a {
   text-decoration: none;
 }
 
+nav {
+	  text-align: right;
+}
+
 nav a {
   color: #212E40;
   font-style: italic;
   margin-right: 10px;
-  text-align: right;
 }
 
 h1 {
@@ -54,6 +57,7 @@ ul {
 }
 
 article {
+	font-size: 14px;
 	padding: 20px;
 }
 
