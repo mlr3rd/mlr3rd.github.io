@@ -45,7 +45,8 @@ section {
 }
 
 h2 {
-  padding: 20px;
+	background-color: #72828C;
+  	padding: 20px;
 }
 
 img {
@@ -57,7 +58,7 @@ ul {
 }
 
 article {
-	font-size: 14px;
+	font-size: normal;
 	padding: 20px;
 }
 
