@@ -20,9 +20,12 @@ body {
 }
 
 header {
-  background-color: #BDD3DE;
+    background-color: #FFED74;/*DELETE*/
+    border: 1px black solid;/*DELETE*/
+    padding: 20px;/*DELETE*/
+  /*background-color: #BDD3DE;
   padding: 1.5em;
-  color: #265441;
+  color: #265441;*/
 }
 
 header p {
@@ -37,8 +40,11 @@ a {
 }
 
 nav {
-	  text-align: right;
-	  font-weight: bold;
+	background-color: #E8C66A;/*DELETE*/
+    border: 1px black solid;/*DELETE*/
+    padding: 20px;/*DELETE*/
+	  /*text-align: right;
+	  font-weight: bold;*/
 }
 
 nav a {
@@ -50,22 +56,22 @@ nav a {
 h1 {
 	font-family: 'Courgette', cursive;
 	font-size: 4em;
-	padding: .5em;
+	padding: 1em;
 }
 
 main {
 	font-family: 'Open Sans', sans-serif;
 }
 
-section {
-
-}
-
 section.MenuSubItem {
+	background-color: #FFE2B8;/*DELETE*/
+    border: 1px black solid;/*DELETE*/
+    padding: 20px;/*DELETE*/
+    /*background color: #A2A2A2;*/
 	width: 30em;
 	margin: 1em auto;
-	background color: #A2A2A2;
 	font-family: 'Open Sans', sans-serif;
+	
 }
 
 h1, h2, h3, h4 {
@@ -111,14 +117,14 @@ li.Item2 {
 	padding-bottom: .5em;
 }
 
-section.Legend {
-	width: 30em;
+aside.Legend {
+	background-color: #FFC675;/*DELETE*/
+    border: 1px black solid;/*DELETE*/
+    padding: 20px;/*DELETE*/
+	width: 15em;
 	margin: 1em auto;
 	font-family: 'Open Sans', sans-serif;
-	
-
 	/**/
-
 }
 
 p.subTitle1 {
@@ -129,10 +135,26 @@ p.subTitle1 {
 }
 
 footer {
-	background-color: #BDD3DE;
-	padding: 20px;
+	background-color: #FF957E;/*DELETE*/
+    border: 1px black solid;/*DELETE*/
+    padding: 20px;/*DELETE*/
+	/*background-color: #BDD3DE;*/
+	/*padding: 1em 2em 0 0;*/
 	text-align: right;
 	color: #265441;
+}
+
+footer p {
+	padding: 1em 1em 1em 0;
+	margin: 0;
+	color: #265441;
+}
+.FootAnchor {
+	padding: 0;
+	margin: 0;
+	color: #212E40;
+  	font-style: italic;
+  	font-weight: bold;
 }
 
 
