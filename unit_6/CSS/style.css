@@ -20,7 +20,7 @@ body {
 }
 
 header {
-    background-color: #FFED74;/*DELETE*/
+    background-color: #BDD3DE;/*DELETE*/
     border: 1px black solid;/*DELETE*/
     padding: 20px;/*DELETE*/
   /*background-color: #BDD3DE;
@@ -81,10 +81,51 @@ h1 {
 
 main {
 	font-family: 'Open Sans', sans-serif;
+	background-color: #1A86BC;
 }
 
+section.PrimaryPage {
+	background-color: #1A86BC;
+	width: cover;
+	margin: 0;
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+#BlueMtn {
+	width: 30%;
+	position: absolute;
+	top: 20em;
+	left: 1em;
+}
+
+#Kona {
+	width: 30%;
+	position: absolute;
+	top: 20em;
+	right: 1em;
+	clear: both;
+}
+
+#SantaInes {
+	width: 30%;
+	position: absolute;
+	bottom: 2em;
+	left: 1em;
+}
+
+#Peaberry {
+	width: 30%;
+	position: absolute;
+	bottom: 2em;
+	right: 1em;
+	clear: both;
+}
+
+
 section.MenuSubItem {
-	background-color: #FFE2B8;/*DELETE*/
+	background-color: #1A86BC;/*DELETE*/
     border: 1px black solid;/*DELETE*/
     padding: 1.25em;/*DELETE*/
     /*background color: #A2A2A2;*/
@@ -128,6 +169,10 @@ h2 {
 	font-size: 2em;
 }
 
+.LittleHeaders {
+	background-color: #1A86BC;
+}
+
 h3, h4 {
 	background-color: #abaeba;
 	padding: .6em;
@@ -160,13 +205,14 @@ li.Item2 {
 }
 
 aside.Legend {
-	background-color: #1ad870; /*#FFC675;#c9df8a;DELETE*/
+	background-color: #77ab59; /*#FFC675;#c9df8a;DELETE*/
     border: 1px black solid;/*DELETE*/
     padding: 20px;/*DELETE*/
 	width: 15em;
 	margin: 1em auto;
 	font-family: 'Open Sans', sans-serif;
-	float: right;
+	float: left;
+	/*text-align: center;*/
 	/**/
 }
 
@@ -174,7 +220,7 @@ p.subTitle1 {
 	font-style: italic;
 	font-size: 1.25em;
 	font-weight: bold;
-	margin: .5em;
+	margin: .25em;
 }
 
 .clearfix:after {
@@ -187,11 +233,11 @@ p.subTitle1 {
 }
 
 footer {
-	background-color: #FF957E;/*DELETE*/
+	background-color: #BDD3DE;/*DELETE*/
     border: 1px black solid;/*DELETE*/
-    padding: 20px;/*DELETE*/
+    /*padding: 20px;DELETE*/
 	/*background-color: #BDD3DE;*/
-	/*padding: 1em 2em 0 0;*/
+	padding: 1em 2em 0 0;
 	text-align: right;
 	color: #265441;
 }
@@ -199,7 +245,6 @@ footer {
 footer p {
 	padding: 1em 1em 1em 0;
 	margin: 0;
-	color: #265441;
 }
 .FootAnchor {
 	padding: 0;
@@ -207,6 +252,7 @@ footer p {
 	color: #212E40;
   	font-style: italic;
   	font-weight: bold;
+  	float: right;
 }
 
 
