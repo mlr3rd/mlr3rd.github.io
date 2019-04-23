@@ -1,0 +1,216 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Courgette|Open+Sans');
+
+/*font-family: 'Open Sans', sans-serif;  BODY
+font-family: 'Courgette', cursive;  Headers*/
+
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+  text-align: center;
+  font-family: open sans, sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  color: #212E04;
+}
+
+header {
+    background-color: #FFED74;/*DELETE*/
+    border: 1px black solid;/*DELETE*/
+    padding: 20px;/*DELETE*/
+  /*background-color: #BDD3DE;
+  padding: 1.5em;
+  color: #265441;*/
+}
+
+header p {
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1.5em;
+}
+
+nav {
+	background-color: #BDD3DE; /*#E8C66A;DELETE*/
+    border: 1px black solid;/*DELETE*/
+    /*padding: 20px;DELETE*/
+	  /*text-align: right;*/
+	font-weight: bold;
+}
+
+a {
+  color: #212E40;
+  text-decoration: none;
+  font-style: italic;
+  /*margin-right: 1em;*/
+  display: block;
+  padding: 7px;
+  width: 7em;
+  float: left;
+}
+
+nav.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+a:hover {
+	background-color: #1A86BC;
+	color: white;
+}
+
+/*nav a {
+  color: #212E40;
+  font-style: italic;
+  margin-right: 1em;
+}*/
+
+h1 {
+	font-family: 'Courgette', cursive;
+	font-size: 4em;
+	padding: 1em;
+}
+
+main {
+	font-family: 'Open Sans', sans-serif;
+}
+
+section.MenuSubItem {
+	background-color: #FFE2B8;/*DELETE*/
+    border: 1px black solid;/*DELETE*/
+    padding: 1.25em;/*DELETE*/
+    /*background color: #A2A2A2;*/
+	width: 16em;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	float: left;
+}
+
+#coffee {
+	background-color: #00667f;
+	color: white;
+}
+
+#tea {
+	background-color: #77ab59;
+}
+
+#beans {
+	background-color: #77ab59;
+}
+
+#bites {
+	background-color: #77ab59;
+}
+
+#equip {
+	background-color: #00667f;
+	color: white;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Courgette', cursive;
+}
+
+
+h2 {
+	background-color: #1A86BC;
+	padding: .75em;
+	font-style: italic;
+	font-size: 2em;
+}
+
+h3, h4 {
+	background-color: #abaeba;
+	padding: .6em;
+}
+
+img {
+	width: 100%;
+}
+
+ul {
+	list-style: none;
+}
+
+li.Item {
+	font-size: 1.75em;
+	font-weight: 800;
+}
+
+li.paren {
+	font-size: .8em;
+	padding: .25em;
+	font-style: italic;
+}
+
+li.Item2 {
+	font-size: 1.75em;
+	font-weight: 800;
+	margin-bottom: 2px;
+	padding-bottom: .5em;
+}
+
+aside.Legend {
+	background-color: #1ad870; /*#FFC675;#c9df8a;DELETE*/
+    border: 1px black solid;/*DELETE*/
+    padding: 20px;/*DELETE*/
+	width: 15em;
+	margin: 1em auto;
+	font-family: 'Open Sans', sans-serif;
+	float: right;
+	/**/
+}
+
+p.subTitle1 {
+	font-style: italic;
+	font-size: 1.25em;
+	font-weight: bold;
+	margin: .5em;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	font-size: 0;
+	height: 0;
+}
+
+footer {
+	background-color: #FF957E;/*DELETE*/
+    border: 1px black solid;/*DELETE*/
+    padding: 20px;/*DELETE*/
+	/*background-color: #BDD3DE;*/
+	/*padding: 1em 2em 0 0;*/
+	text-align: right;
+	color: #265441;
+}
+
+footer p {
+	padding: 1em 1em 1em 0;
+	margin: 0;
+	color: #265441;
+}
+.FootAnchor {
+	padding: 0;
+	margin: 0;
+	color: #212E40;
+  	font-style: italic;
+  	font-weight: bold;
+}
+
+
+
+
+
+
