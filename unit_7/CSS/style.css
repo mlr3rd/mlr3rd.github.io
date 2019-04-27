@@ -1,0 +1,262 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Courgette|Open+Sans');
+
+/*font-family: 'Open Sans', sans-serif;  BODY
+font-family: 'Courgette', cursive;  Headers*/
+
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+  text-align: center;
+  font-family: open sans, sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  color: #212E04;
+}
+
+header {
+    background-color: #BDD3DE;/*DELETE*/
+    border: 1px black solid;/*DELETE*/
+    padding: 20px;/*DELETE*/
+  /*background-color: #BDD3DE;
+  padding: 1.5em;
+  color: #265441;*/
+}
+
+header p {
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1.5em;
+}
+
+nav {
+	background-color: #BDD3DE; /*#E8C66A;DELETE*/
+    border: 1px black solid;/*DELETE*/
+    /*padding: 20px;DELETE*/
+	  /*text-align: right;*/
+	font-weight: bold;
+}
+
+a {
+  color: #212E40;
+  text-decoration: none;
+  font-style: italic;
+  /*margin-right: 1em;*/
+  display: block;
+  padding: 7px;
+  width: 7em;
+  float: left;
+}
+
+nav.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+a:hover {
+	background-color: #1A86BC;
+	color: white;
+}
+
+/*nav a {
+  color: #212E40;
+  font-style: italic;
+  margin-right: 1em;
+}*/
+
+h1 {
+	font-family: 'Courgette', cursive;
+	font-size: 4em;
+	padding: 1em;
+}
+
+main {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #1A86BC;
+}
+
+section.PrimaryPage {
+	background-color: #1A86BC;
+	width: cover;
+	margin: 0;
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+#BlueMtn {
+	width: 30%;
+	position: absolute;
+	top: 20em;
+	left: 1em;
+}
+
+#Kona {
+	width: 30%;
+	position: absolute;
+	top: 20em;
+	right: 1em;
+	clear: both;
+}
+
+#SantaInes {
+	width: 30%;
+	position: absolute;
+	bottom: 2em;
+	left: 1em;
+}
+
+#Peaberry {
+	width: 30%;
+	position: absolute;
+	bottom: 2em;
+	right: 1em;
+	clear: both;
+}
+
+
+section.MenuSubItem {
+	background-color: #1A86BC;/*DELETE*/
+    border: 1px black solid;/*DELETE*/
+    padding: 1.25em;/*DELETE*/
+    /*background color: #A2A2A2;*/
+	width: 16em;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	float: left;
+}
+
+#coffee {
+	background-color: #00667f;
+	color: white;
+}
+
+#tea {
+	background-color: #77ab59;
+}
+
+#beans {
+	background-color: #77ab59;
+}
+
+#bites {
+	background-color: #77ab59;
+}
+
+#equip {
+	background-color: #00667f;
+	color: white;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Courgette', cursive;
+}
+
+
+h2 {
+	background-color: #1A86BC;
+	padding: .75em;
+	font-style: italic;
+	font-size: 2em;
+}
+
+.LittleHeaders {
+	background-color: #1A86BC;
+}
+
+h3, h4 {
+	background-color: #abaeba;
+	padding: .6em;
+}
+
+img {
+	width: 100%;
+}
+
+ul {
+	list-style: none;
+}
+
+li.Item {
+	font-size: 1.75em;
+	font-weight: 800;
+}
+
+li.paren {
+	font-size: .8em;
+	padding: .25em;
+	font-style: italic;
+}
+
+li.Item2 {
+	font-size: 1.75em;
+	font-weight: 800;
+	margin-bottom: 2px;
+	padding-bottom: .5em;
+}
+
+aside.Legend {
+	background-color: #77ab59; /*#FFC675;#c9df8a;DELETE*/
+    border: 1px black solid;/*DELETE*/
+    padding: 20px;/*DELETE*/
+	width: 15em;
+	margin: 1em auto;
+	font-family: 'Open Sans', sans-serif;
+	float: left;
+	/*text-align: center;*/
+	/**/
+}
+
+p.subTitle1 {
+	font-style: italic;
+	font-size: 1.25em;
+	font-weight: bold;
+	margin: .25em;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	font-size: 0;
+	height: 0;
+}
+
+footer {
+	background-color: #BDD3DE;/*DELETE*/
+    border: 1px black solid;/*DELETE*/
+    /*padding: 20px;DELETE*/
+	/*background-color: #BDD3DE;*/
+	padding: 1em 2em 0 0;
+	text-align: right;
+	color: #265441;
+}
+
+footer p {
+	padding: 1em 1em 1em 0;
+	margin: 0;
+}
+.FootAnchor {
+	padding: 0;
+	margin: 0;
+	color: #212E40;
+  	font-style: italic;
+  	font-weight: bold;
+  	float: right;
+}
+
+
+
+
+
+
