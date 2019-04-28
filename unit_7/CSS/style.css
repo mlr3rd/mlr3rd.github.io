@@ -80,10 +80,12 @@ h1 {
 }
 
 .joeStuff1 {
-	margin-top: 16.15em;
+	margin-top: 17.15em;
+	text-align: center;
 }
 
-.joeStuff1, .joeStuff2 {
+.joeStuff2 {
+	margin-bottom: 8.35em;
 	text-align: center;
 }
 
@@ -157,7 +159,8 @@ ul {
 	/*float: left;*/
 	text-align: center;
 	clear: both;
-	margin-bottom: 8.15em;
+	margin-top: 17.15em;
+	margin-bottom: 8.35em;
 	/**/
 }
 
@@ -166,7 +169,7 @@ ul {
 	font-size: 1.25em;
 	font-weight: bold;
 	margin: .25em;
-	display: inline-block;
+	/*display: inline-block;*/
 }
 
 /*.premCoffees {
@@ -180,8 +183,8 @@ ul {
 	width: cover;
 	position: relative;
 	color: white;
-	margin-top: 16.15em;
-	margin-bottom: 8.15em;
+	margin-top: 17.15em;
+	margin-bottom: 7.05em;
 }
 
 /*.PrimaryPage {
