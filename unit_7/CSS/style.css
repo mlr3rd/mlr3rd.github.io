@@ -25,6 +25,7 @@ body {
 	position: fixed;
 	top: 0px;
 	overflow: hidden;
+	z-index: 3;
 }
 
 header {
@@ -149,29 +150,6 @@ ul {
 	font-style: italic;
 }
 
-.Legend {
-	background-color: #77ab59; /*#FFC675;#c9df8a;DELETE*/
-    border: 1px black solid;/*DELETE*/
-    padding: 20px;/*DELETE*/
-	width: 60%;
-	margin: 1em auto;
-	font-family: 'Open Sans', sans-serif;
-	/*float: left;*/
-	text-align: center;
-	clear: both;
-	margin-top: 17.15em;
-	margin-bottom: 8.35em;
-	/**/
-}
-
-.subTitle1 {
-	font-style: italic;
-	font-size: 1.25em;
-	font-weight: bold;
-	margin: .25em;
-	/*display: inline-block;*/
-}
-
 /*.premCoffees {
 	clear: both;
 	margin-top: 16.15em;
@@ -183,15 +161,14 @@ ul {
 	width: cover;
 	position: relative;
 	color: white;
-	margin-top: 17.15em;
+	margin-top: 16.15em;
 	margin-bottom: 7.05em;
+	z-index: 1;
 }
 
-/*.PrimaryPage {
-	background-color: #1A86BC;
-	text-align: center;
-	border: 1px black solid;
-}*/
+.BlueMtn, .Kona, .SantaInes, .Peaberry {
+	z-index: 2;
+}
 
 #BlueMtn {
 	width: 35%;
@@ -223,11 +200,41 @@ ul {
 	clear: both;
 }
 
+.wrapperLegend {
+	margin-top: 17.15em;
+	margin-bottom: 8.35em;
+}
+
+.Legend {
+	background-color: #77ab59; /*#FFC675;#c9df8a;DELETE*/
+    border: 1px black solid;/*DELETE*/
+    padding: 20px;/*DELETE*/
+	width: 60%;
+	margin: 1em auto;
+	font-family: 'Open Sans', sans-serif;
+	/*float: left;*/
+	text-align: center;
+	clear: both;
+	margin-top: 50%;   /*17.15em;*/
+	margin-bottom: 50%;   /*8.35em;*/
+	/**/
+}
+
+.subTitle1 {
+	font-style: italic;
+	font-size: 1.25em;
+	font-weight: bold;
+	margin: .25em;
+	/*display: inline-block;*/
+}
+
+
 .footerCont {
 	width: 100%;
 	position: fixed;
 	bottom: 0px;
 	overflow: hidden;
+	z-index: 3;
 }
 
 .feet {
