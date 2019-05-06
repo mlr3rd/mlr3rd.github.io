@@ -31,7 +31,7 @@ body {
 header {
     background-color: #BDD3DE;/*DELETE*/
     border: 1px black solid;/*DELETE*/
-    padding: 20px;/*DELETE*/
+    padding: 1.25em;/*DELETE*/
     margin: 0px auto;
   /*background-color: #BDD3DE;
   padding: 1.5em;
@@ -51,12 +51,12 @@ nav {
 	text-align: center;
 }
 
-a {
+.headAnchor {
   color: #212E40;
   text-decoration: none;
   font-style: italic;
   display: inline-block;
-  padding: 7px;
+  padding: 0.44em;
   width: 7em;
 }
 
@@ -95,7 +95,7 @@ h1 {
     border: 1px black solid;/*DELETE*/
     padding: 1.25em;/*DELETE*/
     /*background color: #A2A2A2;*/
-	width: 20%;
+	width: 25%;
 	margin: 0;
 	font-family: 'Open Sans', sans-serif;
 	/*float: left;*/
@@ -150,11 +150,6 @@ ul {
 	font-style: italic;
 }
 
-/*.premCoffees {
-	clear: both;
-	margin-top: 16.15em;
-}*/
-
 .blueMtnBkrnd {
 	font-family: 'Open Sans', sans-serif;
 	background-color: #1A86BC;
@@ -208,7 +203,7 @@ ul {
 .Legend {
 	background-color: #77ab59; /*#FFC675;#c9df8a;DELETE*/
     border: 1px black solid;/*DELETE*/
-    padding: 20px;/*DELETE*/
+    padding: 1.25em;/*DELETE*/
 	width: 60%;
 	margin: 1em auto;
 	font-family: 'Open Sans', sans-serif;
@@ -241,26 +236,79 @@ ul {
 	background-color: #BDD3DE;
     border: 1px black solid;
     margin: 0;
-    padding: 20px;
+    padding: 1.25em;
 	text-align: right;
 	color: #265441;
 }
 
 .feet p {
-	padding: 7px;
+	padding: 0.44em;
 	margin: 0;
 	/*display: inline-block;*/
 }
 
-.FootAnchor {
-	padding: 0;
+.footerAnchor {
+	color: #212E40;
+	text-decoration: none;
+	font-style: italic;
+	display: inline-block;
+	padding: 0.44em;
+	width: 7em;
+}
+
+.footerAnchor:hover {
+	background-color: #1A86BC;
+	color: white;
+}
+
+.feetAnchor {
+	padding: 0 0 0 .75em;
 	margin: 0;
 	color: #212E40;
+	text-decoration: none;
   	font-style: italic;
   	font-weight: bold;
   	float: right;
 }
 
+@media only screen and (max-width: 752px) {
+	h1 {
+		font-size: 2em;
+	}
+	header p {
+		font-size: 1em;
+	}
+	.joeStuff1 {
+		margin-top: 13.15em;
+	}
+}
 
+@media only screen and (max-width: 590px) {
+	.MenuSubItem {
+		display: block;
+		text-align: center;
+		width: 50%;
+		margin: 1em auto;
+	}
+	h2 {
+		font-size: 1.5em;
+	}
+}
+
+@media only screen and (max-width: 577px) {
+	.headAnchor {
+		display: block;
+		padding: 0;
+		margin: 0;
+		text-align: center;
+		width: auto;
+	}
+	nav {
+		width: 100%;
+	}
+	.joeStuff1 {
+		margin-top: 16.65em;
+	}
+}
 
 
